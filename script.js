@@ -1,4 +1,4 @@
-
+const body = document.querySelector('body')
 const reset = () => {
     console.log('Clicked!!!!!')
 }
@@ -14,5 +14,5 @@ const btn = document.querySelector('#reset-btn2')
 btn.addEventListener('click',reset)
 btn.addEventListener('click', randNum)
 btn.addEventListener('click', function(){
-    console.log('third function')
+    body.style.backgroundColor = 'purple'
 })
