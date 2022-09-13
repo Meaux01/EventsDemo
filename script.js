@@ -14,5 +14,6 @@ const btn = document.querySelector('#reset-btn2')
 btn.addEventListener('click',reset)
 btn.addEventListener('click', randNum)
 btn.addEventListener('click', function(){
-    body.style.backgroundColor = 'purple'
+    body.style.backgroundColor =  `rgba(${Math.random() * 255},${Math.random() * 255},${Math.random() * 255},${Math.random()})`;
 })
+
